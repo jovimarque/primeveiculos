@@ -1,0 +1,254 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: rgba(23, 23, 23, 0.9);
+	overflow-x: hidden;
+	/*
+	background-image: url('../img/bodyParallax.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	*/
+	
+
+
+}
+
+header{
+	margin: 5px auto;
+}
+
+.navbar-brand{
+	background-image:url('../../img/logo.png');
+	width: 150px;
+	height: 90px;
+	background-repeat: no-repeat;
+}
+
+
+.navbar.navbar-expand-lg{
+	background-color: rgba(23, 23, 23, 0.5);
+	border-radius: 7px;
+}
+
+
+.nav-link{
+	font-weight: 800;
+ font-family: 'arial';
+ color: black;
+ 
+}
+.nav-link:hover{
+ color: white;
+}
+
+
+#conteudo{
+	width: 95%;
+	height:auto;
+	margin:65px auto;
+
+}
+
+
+./* Basic styles */
+
+
+
+.col-md-3{
+	margin: 15px;
+	padding: 5px;
+}
+.card{
+margin: 0px auto;
+padding: 5px;
+background-color: rgba(23, 23, 23, 0.5);
+
+}
+
+@media (min-width: 1199px) { 
+		.col-md-3{
+				margin: 0px 70;
+		}
+ }
+
+
+.card-title{
+	color: white;
+}
+.card-text{
+	color: white;
+
+}
+.card span{
+	font-size: 9px;
+	color: #FFB900;
+	font-weight: bold;
+	font-family: 'Arial';
+}
+
+
+
+.row{
+	margin: 10px;
+}
+
+
+#marcas h3{
+	text-align: center;
+	color: white;
+	margin-top: 5%;
+}
+ .botao{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/gm.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botao:hover{
+	width: 100px;
+	height: 100px;		
+	background-image: url('../img/gm.png');
+	transform: rotateY(360deg);
+
+}
+
+ .botaoFiat{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/fiat.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botaoFiat:hover{
+	width: 100px;
+	height: 100px;		
+	background-image: url('../img/fiat.png');
+	transform: rotateY(360deg);
+
+}
+
+ .botaoHyundai{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/hyundai.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botaoHyundai:hover{
+	width: 100px;
+	height: 100px;		
+	background-image: url('../img/hyundai.png');
+	transform: rotateY(360deg);
+
+}
+ .botaoVw{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/vw.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botaoVw:hover{
+	width: 100px;
+	height: 100px;		
+	background-image: url('../img/vw.png');
+	transform: rotateY(360deg);
+
+}
+
+ .botaoHonda{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/honda.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botaoHonda:hover{
+	width: 100px;
+	height: 100px;		
+	background-image: url('../img/honda.png');
+	transform: rotateY(360deg);
+
+}
+
+ .botaoYamaha{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/yamaha.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botaoYamaha:hover{
+	width: 100px;
+	height: 100px;		
+	background-image: url('../img/yamaha.png');
+	transform: rotateY(360deg);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	 margin-top:120px;
+	 border-top: 1px solid rgba(23, 23, 23, 0.5);
+	 padding-top: 5%;
+	 
+}
+
+
+@media (max-width:767px){ 
+		footer{
+			 margin-top:3650px; 
+			 border-top: 1px solid rgba(23, 23, 23, 0.5);
+			 padding-top: 5%;
+
+		}
+ }
+
+
+footer{
+	 border-top: 1px solid rgba(23, 23, 23, 0.5);
+	 padding-top: 5%;
+	 margin-top: 5%;
+
+}
+
+
+footer ul {
+	list-style: none;
+}
+
+
+footer ul li {
+	display: inline-block;
+	margin: 10px;
+	color: white;
+}
+
+footer ul li a{
+	color: white;
+	text-decoration: none;
+}
+footer ul li a:hover{
+color: #ffb900;
+}

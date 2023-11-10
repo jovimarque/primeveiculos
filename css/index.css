@@ -1,0 +1,538 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: rgba(23, 23, 23, 0.9);
+	overflow-x: hidden;
+	/*
+	background-image: url('../img/bodyParallax.png');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	*/
+	
+}
+
+header{
+	margin: 5px auto;
+
+}
+
+.navbar-brand{
+	background-image:url('../img/logo.png');
+	width: 150px;
+	height: 90px;
+	background-repeat: no-repeat;
+}
+
+.navbar.navbar-expand-lg{
+	background-color: rgba(23, 23, 23, 0.5);
+	border-radius: 7px;
+}
+
+
+.nav-link{
+	font-weight: 800;
+ font-family: 'arial';
+ color: black;
+ 
+
+}
+.nav-link:hover{
+ color: white;
+}
+
+#conteudo{
+	width: 95%;
+	height: auto;
+	margin: 120px auto;
+
+}
+
+
+#conteudo h3{
+	color: white;
+	font-weight: 800;
+	text-align: center;
+}
+./* Basic styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #212121;
+  margin: 10px;
+}
+
+
+
+
+
+/* Slider styles */
+
+
+.card-body{
+background-color: rgba(23, 23, 23, 0.9);
+}
+
+.card span{
+	font-size: 9px;
+	color: #FFB900;
+	font-weight: bold;
+	font-family: 'Arial';
+}
+.card-title{
+	color: white;
+}
+.card-text{
+	color: white;
+}
+
+.slider-container {
+  padding: 20px 0;
+ background-color: rgba(23, 23, 23, 0.5);
+  border: 1px solid rgba(23, 23, 23, 0.5);
+  max-height: 100vh;
+  margin-top: 10px;
+}
+
+ h3 {
+	padding: 15px;
+}
+
+.slides-wrapper {
+  margin: auto;
+  overflow: hidden;
+}
+
+.slides-container {
+  padding: 0 10px;
+}
+
+.slider-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+  transition: 1s;
+  max-height: calc(100vh - 80px);
+}
+
+.slider-item {
+  margin: 0 16px -4px 0;
+  min-height: 150px;
+}
+
+.slider-item img {
+  width: 100%;
+}
+
+.slider-arrows {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+
+.slider-arrow-prev,
+.slider-arrow-next {
+  border: none;
+  background-color: #ffffff;
+  color: #212121;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.slider-arrow-prev:hover,
+.slider-arrow-next:hover {
+  background-color: #eeeeee;
+}
+
+
+#financie{
+	width: 100%;
+	height:auto;
+	padding: 10px;
+	margin-top:10px;
+
+
+}
+
+
+#financie h3{
+	color: white;
+	text-align: left;
+	margin: 0px;	
+	padding: 0px;	
+}
+
+.hr{
+	position: relative;
+	left: 383px;
+	width: 150px;
+	margin-bottom: 10px;
+	border: 2px solid #ffb900;
+}
+
+#financie p{
+		width: 100%;
+		color: white;
+		text-align: justify;
+		font-weight: bold;
+}
+
+
+
+
+
+.imagem{
+	background-image: url('../img/financie.png');
+	background-repeat: no-repeat;
+	width: 40%;
+	height: 200px;
+
+}
+
+
+@media (min-width: 1144px) { 
+		.imagem{
+			background-image: url('../img/financie.png');
+			background-repeat: no-repeat;
+			width: 70%;
+			background-size: cover;
+			height: 200px;
+
+		}
+ }
+
+
+
+
+#alugue{
+	width: 100%;
+	height:auto;
+	padding: 10px;
+	margin-top:10px;
+
+
+}
+
+
+#alugue h3{
+	color: white;
+	text-align: left;
+	margin: 0px;	
+	padding: 0px;	
+}
+
+
+
+#alugue p{
+		width: 100%;
+		color: white;
+		text-align: justify;
+		font-weight: bold;
+}
+
+
+
+
+
+.imagem2{
+	background-image: url('../img/alugue.jpg');
+	background-repeat: no-repeat;
+	width: 40%;
+	height: 200px;
+
+}
+
+
+@media (min-width: 1144px) { 
+		.imagem2{
+			background-image: url('../img/alugue.jpg');
+			background-repeat: no-repeat;
+			width: 70%;
+			background-size: cover;
+			height: 200px;
+
+		}
+ }
+
+
+
+#fgts{
+	width: 100%;
+	height:auto;
+	padding: 10px;
+	margin-top:10px;
+
+
+}
+
+
+#fgts h3{
+	color: white;
+	text-align: left;
+	margin: 0px;	
+	padding: 0px;	
+}
+
+#fgts p{
+		width: 100%;
+		color: white;
+		text-align: justify;
+		font-weight: bold;
+}
+
+
+
+
+
+.imagem3{
+	background-image: url('../img/fgts.jpg');
+	background-repeat: no-repeat;
+	width: 40%;
+	height: 200px;
+
+}
+
+
+@media (min-width: 1144px) { 
+		.imagem3{
+			background-image: url('../img/fgts.jpg');
+			background-repeat: no-repeat;
+			width: 70%;
+			background-size: cover;
+			height: 200px;
+
+		}
+ }
+
+
+#marcas h3{
+	text-align: center;
+	color: white;
+	margin-top: 5%;
+}
+ .botao{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/gm.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botao:hover{
+	width: 100px;
+	height: 100px;		
+	background-image: url('../img/gm.png');
+	transform: rotateY(360deg);
+
+
+
+}
+
+
+
+ .botaoFiat{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/fiat.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botaoFiat:hover{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/fiat.png');
+	transform: rotateY(360deg);
+
+
+}
+
+ .botaoHyundai{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/hyundai.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botaoHyundai:hover{
+	width: 100px;
+	height: 100px;		
+	background-image: url('../img/hyundai.png');
+transform: rotateY(360deg);
+
+
+}
+
+
+ .botaoVw{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/vw.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botaoVw:hover{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/vw.png');
+	transform: rotateY(360deg);
+
+}
+ .botaoHonda{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/honda.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+.botaoHonda:hover{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/honda.png');
+	transform: rotateY(360deg);
+
+}
+
+
+ .botaoYamaha{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/yamaha.png');
+	transition: transform 0.8s;
+	margin: 10px auto;
+}
+
+
+.botaoYamaha:hover{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/yamaha.png');
+	transform: rotateY(360deg);
+
+}
+
+.botaoPickup{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/pickup.png');
+		transition: transform 0.8s;
+	margin: 10px auto;
+
+}
+
+.botaoPickup:hover{
+	width: 100px;
+	height: 100px;	
+	background-image: url('../img/pickup.png');
+	transform: rotateY(360deg);
+
+}
+
+
+#modelos{
+	margin-top8: -90px;
+	width: 95%;
+	height:auto;
+
+
+}
+
+@media (max-width: 190px) { 
+		#modelos{
+			margin-top:-880px;
+			width: 95%;
+			height:auto;
+
+
+		}
+ }
+
+
+#modelos h3{
+	color: white;
+	font-weight: 800;
+	text-align: center;
+}
+./* Basic styles */
+
+
+
+.col-md-3{
+	margin: 15px;
+	padding: 5px;
+}
+.card{
+margin: 0px auto;
+padding: 5px;
+background-color: rgba(23, 23, 23, 0.5);
+
+}
+
+@media (min-width: 1199px) { 
+		.col-md-3{
+				margin: 0px 70;
+		}
+ }
+
+
+.card-title{
+	color: white;
+}
+.card-text{
+	color: white;
+
+}
+.card span{
+	font-size: 9px;
+	color: #FFB900;
+	font-weight: bold;
+	font-family: 'Arial';
+}
+
+
+
+
+footer{
+	 border-top: 1px solid rgba(23, 23, 23, 0.5);
+	 padding-top: 5%;
+	 margin-top: 5%;
+
+}
+
+
+footer ul {
+	list-style: none;
+}
+
+
+footer ul li {
+	display: inline-block;
+	margin: 10px;
+	color: white;
+}
+
+footer ul li a{
+	color: white;
+	font-family:'Droid sans' sans-serif;
+	text-decoration: none;
+}
+footer ul li a:hover{
+color: #ffb900;
+}
